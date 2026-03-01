@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class atividadeDois {
     public static void main(String[] args) {
 
-        System.out.println("--------------Calculadora Bagual-------------");
+        System.out.println("-----------> Calculadora Bagual <----------");
         System.out.println("digite um numero e de enter, após digite outro numero");
         Scanner sc = new Scanner(System.in);
         double num1 = sc.nextDouble();
@@ -30,3 +30,5 @@ public class atividadeDois {
     }
 
 }
+
+//aqui n tem erro bagual

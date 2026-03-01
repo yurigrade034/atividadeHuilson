@@ -31,7 +31,7 @@ public class atividadeTres {
                 if (totalCompra <= financeiro) {
                     financeiro -= totalCompra;
                     qtdEstoque += qtdCompra;
-                    System.out.println("Compra realizada!");
+                    System.out.println("Compra realizada com sucesso");
                 } else {
                     System.out.println("Saldo insuficiente, você tem apenas R$" + financeiro);
                 }
